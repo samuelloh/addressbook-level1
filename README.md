@@ -164,7 +164,7 @@ Example:
 ## Design
 
 AddressBook saves data in a plain text file, one line for each person, in the format `NAME p/PHONE e/EMAIL`.
-Here are 2 examples:
+Here is an example:
 
 ```
 John Doe p/98765432 e/johnd@gmail.com
