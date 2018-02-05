@@ -211,6 +211,11 @@ public class AddressBook {
         showWelcomeMessage();
         processProgramArgs(args);
         loadDataFromStorage();
+        executeProgram();
+        return;
+    }
+
+    private static void executeProgram() {
         while (true) {
             String userCommand = getUserInput();
             echoUserCommand(userCommand);
@@ -843,7 +848,7 @@ public class AddressBook {
         return person[PERSON_DATA_INDEX_NAME];
     }
 
-    /**
+    /**x
      * Returns given person's phone number
      *
      * @param person whose phone number you want
